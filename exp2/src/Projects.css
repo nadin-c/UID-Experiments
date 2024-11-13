@@ -1,0 +1,56 @@
+/* Projects.css */
+
+.projects-container {
+    padding: 20px;
+    background-color: #000000; /* Black background color */
+    color: #41497e; /* Base text color */
+  }
+  
+  .projects-container h1 {
+    font-size: 2rem;
+    color: #333; /* Dark color for the main heading */
+  }
+  
+  .projects-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox to display list items side-by-side */
+    flex-wrap: wrap; /* Allow wrapping to fit items in the container */
+    gap: 20px; /* Space between items */
+  }
+  
+  .projects-container li {
+    background-color: #2e2d2d; /* White background for list items */
+    border: 1px solid #615f5f; /* Light border for list items */
+    border-radius: 8px; /* Rounded corners for list items */
+    padding: 20px;
+    flex: 1 1 calc(50% - 20px); /* Adjust item width to fit two items per row */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
+    box-sizing: border-box; /* Include padding and border in the item width */
+    color: #41497e; /* Dark text color for list items */
+  }
+  
+  .projects-container h2 {
+    font-size: 1.75rem;
+    color: #74d9eb; /* Light blue color for project titles */
+  }
+  
+  .projects-container p {
+    font-size: 1rem;
+    color: #41abbc; /* Darker blue for description text */
+  }
+  
+  .projects-container ul ul {
+    margin-left: 20px; /* Indent sublist items */
+  }
+  
+  .projects-container li ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projects-container li ul li {
+    font-size: 1rem;
+    color: #5badbc; /* Lighter blue for sublist items */
+  }
+  

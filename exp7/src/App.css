@@ -1,0 +1,14 @@
+/* src/App.css */
+body {
+  background-color: #b5a497; /* Sandal color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

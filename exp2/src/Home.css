@@ -1,0 +1,103 @@
+/* General container styling with gradient background */
+body {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: #333;
+  animation: fadeIn 0.6s ease;
+}
+
+/* Animation for smooth entrance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Name title with teal color */
+.name-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #008080;
+  /* Teal */
+  margin-bottom: 0.5rem;
+}
+
+/* Profile image with a shadow and border effect */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #6a0dad;
+  /* Purple border */
+  margin: 1rem 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtitle with a distinct purple color */
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6a0dad;
+  /* Purple */
+  margin-bottom: 1.5rem;
+}
+
+/* About section with a neutral color */
+.about-section {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+/* Links container with spacing */
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Link item with teal and hover effects */
+.link-item {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #008080;
+  /* Teal */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link-item:hover {
+  background-color: #6a0dad;
+  /* Purple on hover */
+  color: #ffffff;
+}
+
+/* Social icon styling */
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}

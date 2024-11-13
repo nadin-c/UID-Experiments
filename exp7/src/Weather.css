@@ -1,0 +1,86 @@
+/* src/Weather.css */
+.weather-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #43a047;
+}
+
+.weather-info {
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #ffffff; /* Bright white text */
+}
+
+.weather-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ffffff; /* Brighter white for the city name */
+}
+
+.weather-info p {
+  margin: 5px 0;
+  color: #ffffff; /* Brighter white for weather details */
+}
+
+.error {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1rem;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
